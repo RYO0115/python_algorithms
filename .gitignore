@@ -1,3 +1,4 @@
 .vscode
+.vscode/*.json
 setting.json
 *-checkpoint.ipynb
