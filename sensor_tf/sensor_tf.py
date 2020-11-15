@@ -79,7 +79,7 @@ class SensorTF:
 
 
 
-
+'''
 
 # %%
 s_tf = SensorTF( 1, 0, 0, 0.0, 0.0, 30, False)
@@ -120,8 +120,4 @@ truck_trgt_pos  = np.dot( truck_rot, sensor_trgt_pos.T)
 print("Truck Target Pos:")
 print(truck_trgt_pos)
 
-
-# %%
-
-
-
+'''
