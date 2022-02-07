@@ -4,3 +4,4 @@ setting.json
 *-checkpoint.ipynb
 ./**/.DS_Store
 .DS_Store
+*.csv
