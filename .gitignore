@@ -7,3 +7,6 @@ setting.json
 *.pdf
 *.zip
 *.png
+*.csv
+*.pyc
+
