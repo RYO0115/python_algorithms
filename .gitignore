@@ -6,3 +6,7 @@ setting.json
 .DS_Store
 *.pdf
 *.zip
+*.png
+*.csv
+*.pyc
+
