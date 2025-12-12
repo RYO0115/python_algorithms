@@ -9,4 +9,9 @@ setting.json
 *.png
 *.csv
 *.pyc
+_build
+_static
+_templates
 
+.python-version
+.venv
