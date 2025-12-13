@@ -6,18 +6,28 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'sphinx_doxygen'
-copyright = '2025, RYO0115'
-author = 'RYO0115'
-release = 'no'
+project = 'Sphinx Tutorial'
+copyright = '2025, Ryota Amano'
+author = 'Ryota Amano'
+
+version = '0.1'
+release = '0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    'myst_parser',
+    'breathe',
+]
+
+breathe_projects = {
+    "RPG Battle Simulator": "../../cpp_trial_project/docs/xml"
+}
+breathe_default_project = "RPG Battle Simulator"
 
 templates_path = ['_templates']
-exclude_patterns = []
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 language = 'ja'
 
