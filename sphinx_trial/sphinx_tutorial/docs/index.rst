@@ -16,6 +16,6 @@ documentation for details.
    :caption: Contents:
 
    intro
-   usage/index
-   other/index
-
+   usage/usage
+   other/advanced
+   specification/index
