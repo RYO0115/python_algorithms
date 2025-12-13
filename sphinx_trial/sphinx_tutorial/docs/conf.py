@@ -18,7 +18,13 @@ release = '0.1'
 
 extensions = [
     'myst_parser',
+    'breathe',
 ]
+
+breathe_projects = {
+    "RPG Battle Simulator": "../../cpp_trial_project/docs/xml"
+}
+breathe_default_project = "RPG Battle Simulator"
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']

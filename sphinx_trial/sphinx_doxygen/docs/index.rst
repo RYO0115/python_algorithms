@@ -1,10 +1,10 @@
-.. sphinx_doxygen documentation master file, created by
-   sphinx-quickstart on Sun Dec 14 05:58:37 2025.
+.. Sphinx Tutorial documentation master file, created by
+   sphinx-quickstart on Fri Dec 12 22:53:36 2025.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-sphinx_doxygen documentation
-============================
+Sphinx Tutorial documentation
+=============================
 
 Add your content using ``reStructuredText`` syntax. See the
 `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
@@ -15,3 +15,7 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
+   intro
+   specification/index
+   api_reference
+   other/index

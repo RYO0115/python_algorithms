@@ -17,6 +17,9 @@ RUN apt-get update && apt-get install -y \
     python3-venv \
     && rm -rf /var/lib/apt/lists/*
 
+# Install python dependencies
+RUN pip3 install breathe sphinx-rtd-theme myst-parser
+
 # Install uv
 RUN curl -LsSf https://astral.sh/uv/install.sh | sh
 
