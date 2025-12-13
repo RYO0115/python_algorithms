@@ -1,0 +1,10 @@
+services:
+  docs-builder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: sphinx-doxygen-builder
+    volumes:
+      - .:/workspace
+    tty: true
+    stdin_open: true
