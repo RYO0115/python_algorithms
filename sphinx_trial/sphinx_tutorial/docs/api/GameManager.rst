@@ -4,6 +4,8 @@ GameManager
 .. doxygenclass:: GameManager
    :project: RPG Battle Simulator
    :members:
+   :private-members:
+   :undoc-members:
 
 **Source Code**
 
