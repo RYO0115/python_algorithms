@@ -53,6 +53,8 @@ def main():
 .. doxygenclass:: {class_name}
    :project: RPG Battle Simulator
    :members:
+   :private-members:
+   :undoc-members:
 
 **Source Code**
 
@@ -96,11 +98,10 @@ This section provides the API documentation for the RPG Battle Simulator.
 .. toctree::
    :maxdepth: 1
    :caption: Classes
+   :glob:
 
+   api/*
 """
-    
-    for class_name in sorted(classes):
-        content += f"   api/{class_name}\n"
 
     with open(index_file, "w") as f:
         f.write(content)

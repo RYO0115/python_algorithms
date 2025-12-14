@@ -4,6 +4,8 @@ Skill
 .. doxygenclass:: Skill
    :project: RPG Battle Simulator
    :members:
+   :private-members:
+   :undoc-members:
 
 **Source Code**
 
