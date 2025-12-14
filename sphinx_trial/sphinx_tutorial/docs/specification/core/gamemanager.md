@@ -1,6 +1,6 @@
 # GameManager Class
 
-`GameManager` クラスは、ゲーム全体の進行を管理するクラスです。
+{cpp:class}`GameManager` クラスは、ゲーム全体の進行を管理するクラスです。
 
 ## 概要
 
@@ -19,10 +19,10 @@
 
 ### `public`
 
-#### `GameManager()`
+#### {cpp:func}`GameManager::GameManager`
 *   **説明**: コンストラクタ。乱数生成器の初期化を行います。
 
-#### `void start()`
+#### {cpp:func}`GameManager::start`
 *   **説明**: ゲームを開始します。
 *   **処理内容**:
     1.  ユーザーにヒーローの名前を入力させます。
@@ -31,22 +31,22 @@
 
 ### `private`
 
-#### `void battle()`
+#### {cpp:func}`GameManager::battle`
 *   **説明**: バトルのメインループを実行します。
 *   **処理内容**:
     *   どちらかのHPが0になるまでターンを繰り返します。
     *   各ターンで `heroTurn()` と `monsterTurn()` を交互に呼び出します。
     *   勝敗が決まったら結果を表示します。
 
-#### `void heroTurn()`
+#### {cpp:func}`GameManager::heroTurn`
 *   **説明**: ヒーローの行動処理を行います。
 *   **処理内容**:
     *   ユーザーからの入力を受け付け、攻撃またはスキル使用を実行します。
 
-#### `void monsterTurn()`
+#### {cpp:func}`GameManager::monsterTurn`
 *   **説明**: モンスターの行動処理を行います。
 *   **処理内容**:
     *   モンスターのAIロジック（`performAction`）を呼び出します。
 
-#### `void showStatus()`
+#### {cpp:func}`GameManager::showStatus`
 *   **説明**: 現在のステータス（HP/MP）を表示します。

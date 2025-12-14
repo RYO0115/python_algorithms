@@ -1,6 +1,6 @@
 # Skill Class
 
-`Skill` クラスは、キャラクターが使用する魔法や技を表すクラスです。
+{cpp:class}`Skill` クラスは、キャラクターが使用する魔法や技を表すクラスです。
 
 ## 概要
 
@@ -10,7 +10,7 @@
 
 ## 列挙型
 
-### `SkillType`
+### {cpp:enum}`SkillType`
 *   `ATTACK`: 攻撃スキル
 *   `HEAL`: 回復スキル
 
@@ -27,17 +27,17 @@
 
 ### `public`
 
-#### `Skill(std::string name, int mpCost, int power, SkillType type)`
+#### {cpp:func}`Skill::Skill`
 *   **説明**: コンストラクタ。
 
-#### `std::string getName() const`
+#### {cpp:func}`Skill::getName`
 *   **説明**: スキル名を取得します。
 
-#### `int getMpCost() const`
+#### {cpp:func}`Skill::getMpCost`
 *   **説明**: 消費MPを取得します。
 
-#### `int getPower() const`
+#### {cpp:func}`Skill::getPower`
 *   **説明**: 威力を取得します。
 
-#### `SkillType getType() const`
+#### {cpp:func}`Skill::getType`
 *   **説明**: スキルの種類を取得します。

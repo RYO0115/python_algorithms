@@ -1,6 +1,6 @@
 # Dice Class
 
-`Dice` クラスは、乱数生成を行うユーティリティクラスです。
+{cpp:class}`Dice` クラスは、乱数生成を行うユーティリティクラスです。
 
 ## 概要
 
@@ -23,8 +23,8 @@
 
 ### `public`
 
-#### `static void init()`
+#### {cpp:func}`Dice::init`
 *   **説明**: 乱数生成器を初期化します。プログラム開始時に一度だけ呼び出す必要があります。
 
-#### `static int get(int min, int max)`
+#### {cpp:func}`Dice::get`
 *   **説明**: 指定された範囲（min以上max以下）のランダムな整数を返します。
